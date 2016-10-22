@@ -26,7 +26,7 @@ public class CustomerController {
         // adding customer to Model
         theModel.addAttribute("customers", theCustomers);
 
-        return "list-customer";
+        return "list-customers";
 
     }
 }
