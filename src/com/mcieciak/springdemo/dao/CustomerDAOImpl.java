@@ -17,8 +17,8 @@ public class CustomerDAOImpl implements CustomerDAO {
     @Autowired
     private SessionFactory sessionFactory;
 
-    // thanks to @Transactional Spring automatically start and ends transactions
-    @Transactional
+    // delete @Transactional if we have service layer
+
     @Override
     public List<Customer> getCustomers() {
 
